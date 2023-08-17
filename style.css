@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    margin: 25px;
+    transition: 0.5s;
+}
+
+.translate {
+    background-color: blueviolet;
+}
+
+.translate:hover {
+    transform: translate(100px,100px);
+}
+
+.rotate {
+    background-color: orangered;
+}
+
+.rotate:hover {
+    transform: rotateZ(45deg);
+}
+
+.scale {
+    background-color: red;
+}
+
+.scale:hover {
+    transform: scale(1.3);
+    background-color: green;
+}
+
+.skew {
+    background-color: green;
+}
+
+.skew:hover {
+    transform: skewX(-45deg);
+}
